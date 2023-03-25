@@ -4,6 +4,7 @@ C++ program that reads thermistor values and is put through a PID controller tha
 
 #### Work flow:
 _Independant Variables_: Desired Temperature in (Celcius), Controller used: P-Control, PD-Control, PID-control
+
 Once independant variables are set, a three minute timer is set to allocate enough time for the controller to reach the desired temperature and settle around that temperature. When the timer reaches three minutes the thermistor readings are outputted during that time, and the tranisistors dutycycle is set to 0 allowing no current to flow to the hot-end nozzle allowing it to cool down.  
 
 
