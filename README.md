@@ -1,5 +1,5 @@
 ### PID-Controller-for-3D-printer-hot-end-nozzle
-###### Description
+##### Description
 C++ program that reads thermistor values and is put through a PID controller that controls a transistor, to get the hot-end nozzle to reach the desired user-set temperature and then maintain zero error between the desired temperature and actual temperature of the nozzle.
 
 _Independant Variables_: Desired Temperature in (Celcius), Controller used: P-Control, PD-Control, PID-control
